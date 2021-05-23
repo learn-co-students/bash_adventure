@@ -25,8 +25,8 @@ print('But it seems to be hidden...')
 print()
 print(color.RED + 'I have left you some clues for finding it...' + color.END)
 print()
-print(color.BOLD + 'Please find the README.md file and add your name to the file.')
-print('Once you have made an edit to the file, move it to the folder we\'re in now, and push it to github!')
+print(color.BOLD + 'Please find the README.md file and add the phrase "Fear not the terminal." to the file.')
+print('Once you have made an edit to the file, create a new folder called "buried_treasure_chest" and move the readme file into that folder.')
 print()
 print(color.BOLD + 'Happy searching :)' + color.END)
 print('===============================================')
@@ -52,7 +52,7 @@ os.mkdir(basement)
 
 secret_script = os.path.join(basement, '.secret_fancy_password.py')
 with open(secret_script, 'w') as file:
-    file.write('file = open("README.md", "w")\n\nfile.write("**My name is:**")\n\nfile.close()')
+    file.write('file = open("README.md", "w")\n\nfile.write("")\n\nfile.close()')
 
 trick_script = os.path.join(attic, 'mission_complete.sh')
 with open(trick_script, 'w') as file:
