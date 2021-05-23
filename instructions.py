@@ -13,7 +13,7 @@ def instructions():
 - Printing the contents of a directory.
 - Creating a new directory.
 - Navigating a directory.
-- Making an edit to a text file.
+- Making an edit to a text file using `vim`.
 - Moving a file.\n\n
 **If you are running this lab in Illumidesk, at the end of these instructions, we provide a link that will take you to a terminal window. If you are running the lab locally, you will complete the lab in your local terminal window.**\n\n
 ## Once you have a terminal window open, please complete the following tasks:
