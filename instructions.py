@@ -19,7 +19,9 @@ def instructions():
 ## Once you have a terminal window open, please complete the following tasks:
 \n\n>*Automated tests have been provided at the end of this notebook to check your work. For this lab, the tests will be checking to see if folders and files have been placed in the correct location. Be sure to carefully follow the instructions below!*\n\n### Task 1
 1. run the command `cd {path}` (Please notify an instructor if this command does not work)
-2. run the command `setup.sh` (Don't worry too much about this step. We're just installing vim onto your illumidesk server.)
+2. run the following setup up commands (Don't worry too much about this step, these are just needed because we're running the lab in illumidesk)
+    - pip install pyvim
+    - alias vim=pyvim
 3. Use the `ls` command to print the contents of the directory.
 4. run the .py file called `begin_mission.py` by running the command `python begin_mission.py`
 5. Find the README.md file.

@@ -1,3 +1,5 @@
+#!/bin/bash
+
 pip install pyvim
 
-alias vim=pyvim
+alias something=pyvim
